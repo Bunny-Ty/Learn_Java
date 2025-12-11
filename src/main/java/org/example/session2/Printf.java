@@ -12,6 +12,12 @@ public class Printf {
         System.out.printf("'%s' %n", "testingvn");
         System.out.printf("'%S' %n", "testingvn");
     }
+
+    // ham main de chay chuong trinh
+    public static void main (String[] args){
+        Printf demo = new Printf(); // Tao doi tuong demo cua lop Printf
+        demo.printfEx(); // Goi phuong thuc printfEx thong qua doi tuong demo
+    }
 }
 
 // Neu de in 2 chuoi cung luc:
