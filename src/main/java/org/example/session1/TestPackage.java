@@ -9,6 +9,13 @@ public class TestPackage {
         System.out.println("test 2");
     }
 
-    private void printInfo(String debugText) { //private: chi co the goi ben trong chinh class nay - Khong co noi dung --> phuong thuc khong thuc thi hanh dong nao
+    // method private co noi dung de thay ket qua
+    private void printInfo(String debugText) {
+        System.out.println("Debug message: " + debugText);
+    }
+
+    // entry point cua chuong trinh
+    public static void main (String[] args) {
+        checkImportPackage(); // goi method static
     }
 }
