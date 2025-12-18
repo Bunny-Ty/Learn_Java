@@ -10,5 +10,11 @@ public class TestPackage {
     }
 
     private void printInfo(String debugText) { //private: chi co the goi ben trong chinh class nay - Khong co noi dung --> phuong thuc khong thuc thi hanh dong nao
+        System.out.println("Debug message: " + debugText );
+    }
+
+    // entry point cua chuong trinh
+    public static void main(String[] args) {
+        checkImportPackage(); // goi phuong thuc static checkImportPackage() de thuc thi cac lenh ben trong no
     }
 }
